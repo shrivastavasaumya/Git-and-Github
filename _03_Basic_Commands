@@ -8,3 +8,4 @@
 7) init - used to create a new git repo                        git init
 8) to verify remote                                            git remote -v
 9) git branch
+10) 
