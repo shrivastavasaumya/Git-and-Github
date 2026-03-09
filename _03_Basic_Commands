@@ -1,0 +1,10 @@
+ 
+1) Clone - cloning a repository on your local machine          git clone <-some link > {link = repo -> code-> https-> copy}
+2) Status - displays the state of code                         git status
+3) Hidden files                                                ls -a
+4) Add file - adds new or changed files to git staging area    git add <- file name >
+5) Commit file - it is the record of change                    git commit -m "some message"
+6) Push file - upload local repo. content to remote (git)repo  git push origin main   * keychain / delete credentials
+7) init - used to create a new git repo                        git init
+8) to verify remote                                            git remote -v
+9) git branch
