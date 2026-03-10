@@ -1,0 +1,90 @@
+                                                         Git Commands
+                                                        --------------
+                                                        
+
+
+1. Setup Commands
+
+Used when installing Git or setting your identity.
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+git config --list
+
+2. Repository Creation
+
+Create or download a repository.
+git init          # Initialize a new repository
+git clone <url>   # Copy an existing repository
+
+3. Checking Repository Status
+
+See what changes are made.
+git status
+git log
+git log --oneline
+git diff
+
+4. Adding Files to Staging Area
+
+Prepare files before committing.
+
+git add file_name
+git add .
+
+5. Commit Changes
+
+Save changes permanently / record of changes in the repository.
+git commit -m "Your message"
+
+6. Push Commands
+ Push file - upload local repo. content to remote (git)repo    git push origin main   {* keychain / delete credentials
+
+7. Clone and status
+Clone - cloning a repository on your local machine             git clone <-some link > {link = repo -> code-> https-> copy}
+Status - displays the state of code                            git status
+
+8. Hidden file
+Hidden files                                                   ls -a
+
+9. Remote Repository Commands
+
+Connect your local repo to sites like GitHub.
+git remote add origin <repo_url>
+git remote -v
+git push origin main
+git pull origin main
+git fetch
+
+
+10. Simple Git Workflow
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin URL
+git push -u origin main
+
+11. Branch Commands
+
+Work with different versions of code.
+
+git branch                                 # Show branches
+git branch -m main                         # To rename
+git branch branch_name                     # Create branch
+git checkout branch_name                   # Switch branch / to navigate
+git checkout -b new_branch_name            # Create new branch+ switch
+git branch -d branch_name                  # Delete branch
+
+12. Merge 
+git merge branch_name      # Merge branch
+git diff branch_name       # To compare commits, branches, files and more
+
+13. Pull request
+It lets you tell others about changes you've pushed to a branch in a repository on GitHub, helps to review your contributions.
+
+git pull origin main
+
+
+14. Resolving merge conflicts
+When git is unable to automatically resolve differences in code between two commits.

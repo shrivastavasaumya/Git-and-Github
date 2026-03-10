@@ -1,0 +1,10 @@
+  
+What is Git ?
+
+  It is a tool "VERSION CONTROL SYSTEM" ---> It helps to track history and record changes in code 
+                                            It helps to collaborate
+
+                                
+What is Git hub ?
+
+ It is a website where we host repositories online. It allows developers to store and manage their code using git.
